@@ -6,6 +6,7 @@ const app = new SYW()
 //     res.end('Hello SYW')
 // })
 
+
 app.use(ctx => {
     ctx.body = "hehe ctx"
     ctx.res.end(ctx.body)
